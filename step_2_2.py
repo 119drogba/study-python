@@ -12,5 +12,3 @@ if __name__ == "__main__":
     base_dir = WORK_DIR
     filesize = get_total_filesize(base_dir, pattern="*")
     print(f"{base_dir.as_posix()=},{filesize=} bytes")
-    
-    
