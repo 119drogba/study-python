@@ -21,5 +21,6 @@ def load_filesize_per_dir() -> dict[str,int]:
         with open(OUT_2_4,encoding="utf-8") as fp:
             return json.load(fp)
     return {}
+
 if __name__ == "__main__":
     dump_filesize_from_dirnames()       
