@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# VS Code setting files
+.vscode/
+.history/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Excel files, logs, etc. (필요에 따라 추가)
+*.xlsx
+*.log
+*.csv
+
+# OS별 자동생성 파일들
+.DS_Store
+Thumbs.db
