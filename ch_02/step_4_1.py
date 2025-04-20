@@ -8,3 +8,6 @@ df_tail
 df_sum = df_tail.drop(columns=["분류"]).sum().to_frame().transpose()
 df_sum["분류"] = "기타"
 df_sum
+
+df_final = pd.concat([df_head, df_sum], ignore_index=True)
+df_final
